@@ -3,3 +3,4 @@ ReWear is a web-based platform that enables users to exchange unused clothing  t
 
 ## Tech Stack 
 react 
+javascript
