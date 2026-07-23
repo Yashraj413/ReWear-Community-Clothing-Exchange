@@ -30,10 +30,10 @@ function App() {
           <div className="content">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/login/*" element={<Login />} /> {/* /login/* 경로 설정 */}
-              <Route path="/sign-up/*" element={<SignUp />} /> {/* /sign-up/* 경로 설정 */}
+              <Route path="/login/*" element={<Login />} /> {/* /login/* */}
+              <Route path="/sign-up/*" element={<SignUp />} /> {/* /sign-up/* */}
               <Route path="/sign-up/complete" element={<Completion />} />
-              <Route path="/mypage/*" element={<Mypage />} /> {/* /mypage/* 경로 설정 */}
+              <Route path="/mypage/*" element={<Mypage />} /> {/* /mypage/* */}
               <Route path="/mypage/edit" element={<EditProfile />} />
               <Route path="/service/general" element={<ServiceGeneral />} />
               <Route path="/service/general/write" element={<ServiceGeneralWrite />} />
@@ -52,5 +52,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;
